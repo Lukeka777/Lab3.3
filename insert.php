@@ -1,4 +1,4 @@
-<?php $sqlSelect = "SELECT * FROM mydb.teacher";
+<?php $sqlSelect = "SELECT * FROM iteh2lb1var2.teacher";
 echo "<option>Преподаватель</option>";
   
 foreach($dbh->query($sqlSelect) as $cell)
@@ -8,7 +8,7 @@ foreach($dbh->query($sqlSelect) as $cell)
 }
 
 echo "</select>" ?>
- Выберите группу<select name ="title" ><?php $sqlSelect = "SELECT * FROM mydb.groups";
+ Выберите группу<select name ="title" ><?php $sqlSelect = "SELECT * FROM iteh2lb1var2.groups";
 echo "<option>Группа</option>";
   
 foreach($dbh->query($sqlSelect) as $cell)

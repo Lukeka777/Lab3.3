@@ -7,7 +7,7 @@
     <script src="script.js"></script>
 
 </head>
-<h2>Лабораторна робота №1, КІУКІ-19-5, Білаш Дмитро, Варіант №1 </h2>
+<h2>Лабораторна робота №3,  КІУКІ-19-6, Вовк Ілля Андрійович, Варіант №1 </h2>
 <!--<form method="get" action="firstDB.php">-->
 <p><strong> Вывести расписание занятий группы </strong><select name="groups" id="groups">
         <option name='selectiongroup'>Группа</option>
@@ -16,7 +16,7 @@
 <?php
 include "connection.php";
 //где то тут вывод первой части задания 
-$sqlSelect = "SELECT * FROM mydb.groups";
+$sqlSelect = "SELECT * FROM iteh2lb1var2.groups";
 foreach ($dbh->query($sqlSelect) as $cell) {
     echo "<option>";
     print_r($cell[1]);
